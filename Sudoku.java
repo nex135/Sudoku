@@ -105,7 +105,6 @@ public class Sudoku extends JFrame implements ActionListener {
   JLabel quitLabel = new JLabel ("Do you want to quit the game?");
   
   
-  
   /***********************************************************************************************************************/
   /*********************************************The Big Constructor******************************************************/
   public Sudoku(){
@@ -301,6 +300,8 @@ public class Sudoku extends JFrame implements ActionListener {
     fail.setVisible(false);
     //set frame to visible
     setVisible(true);
+
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }//end constructor
   
   
